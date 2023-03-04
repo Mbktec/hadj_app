@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Agence from './components/Agence';
+import ButtonAction from './components/ButtonAction';
+import 'bootstrap/dist/css/bootstrap.css';
+import AddAgence from './components/AddAgence';
+import AddPelerin from './components/AddPerlerin';
+import PageAuthen from './components/PageAuthen';
+import { useState } from 'react';
+import Users from './components/Users';
+import AffichePelerin from './components/CardPelerin';
+
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='col-12'>
+     <Agence/>
     </div>
   );
 }

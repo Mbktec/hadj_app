@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./image/mbk.jpg) center/cover no-repeat fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tex-imag {
+  width: 30%;
+}
+
+.carte {
+  height: 20%;
+  border-radius: 20%;
 }
